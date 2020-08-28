@@ -1,7 +1,32 @@
 .nav-bar {
     display:flex;
-    border: black solid 2px;
-    height: 150px;
+    border: rgb(156, 86, 86) solid 1px;
+    height: 80px;
     width:100%;
-    margin:auto;
+    margin: 0;
+    padding: 20px;
+    align-items: center;
     justify-content: space-between;
+}
+
+.nav-end{
+    display: block;
+    background-color:skyblue;
+    font-weight: bold;
+    padding:10px;
+}
+
+.navlink {
+    color:black;
+    font-weight: bold;
+    padding: 0;
+    list-style: none;
+}
+/* trying to get a margin to appear above and below the <a> tags on hover */
+
+a:hover{
+        border-top: 5px solid yellow;
+        border-bottom: 5px solid yellow;
+        /* overflow: hidden; */
+}
+

@@ -2,7 +2,7 @@
 @import "article.css";
 
 body {
-    background:#b2e4de;
+    background:#dff5f2;
 }
 
 .back-margin{
@@ -19,9 +19,10 @@ a {
     text-decoration: none;
 }
 
-h1, h3{
-        /* display: block;
-        justify-content: center; */
+#headings{
+        display: inline-block;
+        justify-content: center;
         align-items: center;
+        color: green
 }
 
