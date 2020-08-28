@@ -1,12 +1,13 @@
 @import "navbar.css";
+@import "article.css";
 
 body {
-    background:#9df9ef;
+    background:#b2e4de;
 }
 
 .back-margin{
     display: flex;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     border-radius: 5%;
     width: 90%;
     flex-wrap: wrap;
@@ -17,3 +18,10 @@ body {
 a {
     text-decoration: none;
 }
+
+h1, h3{
+        /* display: block;
+        justify-content: center; */
+        align-items: center;
+}
+
