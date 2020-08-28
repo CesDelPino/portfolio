@@ -1,0 +1,19 @@
+@import "navbar.css";
+
+body {
+    background:#9df9ef;
+}
+
+.back-margin{
+    display: flex;
+    border: 2px solid blue;
+    border-radius: 5%;
+    width: 90%;
+    flex-wrap: wrap;
+    background-color: #edf7f6;
+    padding: 5%;
+}
+
+a {
+    text-decoration: none;
+}

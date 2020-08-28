@@ -1,0 +1,7 @@
+.nav-bar {
+    display:flex;
+    border: black solid 2px;
+    height: 150px;
+    width:100%;
+    margin:auto;
+    justify-content: space-between;

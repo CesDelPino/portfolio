@@ -1,0 +1,25 @@
+
+body {
+    background-color:skyblue;
+}
+/* attempting to draw a cloudy background in css */
+ .cloud {
+        width: 150px;
+        height: 150px;
+        color: snow;
+        /* background-color: currentColor; */
+        border-radius: 50% 50% 40% 40%;
+        box-shadow:
+            150px 600px 10px 0 currentColor,
+            240px 560px 10px 0 currentColor,
+            320px 540px 10px 0 currentColor,
+            320px 590px 10px 0 currentColor,
+            400px 80px 10px 0 currentColor,
+            320px 50px 10px 0 grey,
+            280px 80px 10px 0 black,
+            320px 100px 4px 0 orange,
+            380px 130px 4px 0 brown,
+            200px 80px 4px 0 red;
+            
+
+        }
