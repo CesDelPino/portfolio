@@ -1,0 +1,36 @@
+/* need to fix the pdf file download link and lavel to display above and below each other. */
+
+/* flex box for the pdf download */
+#cv {
+    display:flex;
+    width: 100%;
+    /* align-items: flex-start; */
+    border: black solid 2px;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    padding-top: 2%;
+}
+
+
+form {
+    display: flex;
+    width: 100%;
+    /* padding: 10%; */
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: orange solid 2px;
+    text-align: center;
+    justify-content: center;
+}
+
+input {
+    width: 60%;
+    border: red solid 1px;
+    /* background-color: orange; */
+}
+
+textarea {
+    /* background-color: red; */
+    width: 60%;
+}

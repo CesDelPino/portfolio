@@ -21,14 +21,7 @@
     border-color: black solid 2px;
 }
 
-#cv {
-    display:flex;
-    width: 100%;
-    /* align-items: flex-start; */
-    border: black solid 2px;
-    justify-content: space-evenly;
-    align-items: center;
-}
+
 
 .contact-form {
     display:flex;
