@@ -1,23 +1,39 @@
 .text-pic{
     display: flex;
-    border: black solid 2px;
-    height: 150px;
+    /* border: black solid 2px; */
     width:100%;
     margin:auto;
-    justify-content: left;
-    align-content: center;
+    justify-content: space-between;
+    /* padding-left: 15%;
+    padding-right: 15%; */
+    padding: 10%;
 }
 
-.description{
+.article-right{
     display: none;
-    border: black solid 1px
+    /* border: black solid 1px; */
+    width: 40%;
+    height: 200px;
 }
 
-.sisterimg {
-    display: block;
-    justify-content: left;
-}
-
-.sisterimg:hover~.description{
+.article-left:hover~.article-right{
     display:block;
+    border-color: black solid 2px;
 }
+
+#cv {
+    display:flex;
+    width: 100%;
+    /* align-items: flex-start; */
+    border: black solid 2px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contact-form {
+    display:flex;
+    width: 100%;
+    flex-wrap: wrap;
+    border:black solid 3px;
+}
+/* space for animation of description appear on img hover */

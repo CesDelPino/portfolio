@@ -1,0 +1,12 @@
+.good-code{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    border: black solid 2px;
+}
+
+.ther-heading {
+        text-align: center;
+        width: 100%;
+}

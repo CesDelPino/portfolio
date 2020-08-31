@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto&display=swap');
 @import "navbar.css";
 @import "article.css";
+@import "codeblock.css";
+@import "good-code.css";
 
 body {
-    background:#dff5f2;
+    background: #94f0f1;
+    font-family: Poppins;
 }
 
 .back-margin{
@@ -10,8 +14,9 @@ body {
     /* border: 2px solid blue; */
     border-radius: 5%;
     width: 90%;
+    justify-content: center;
     flex-wrap: wrap;
-    background-color: #edf7f6;
+    background-color:white;
     padding: 5%;
 }
 
@@ -20,9 +25,16 @@ a {
 }
 
 #headings{
-        display: inline-block;
-        justify-content: center;
-        align-items: center;
-        color: green
+        display: block;
+        text-align: center;
+        color: Blue;
+        width: 90%;
 }
+
+a:visited {color:blue;}
+footer {
+    text-align: center;
+    font-size: .8em;
+}
+
 
