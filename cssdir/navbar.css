@@ -40,6 +40,7 @@ a.navlink:hover{
 .hamburger {
     display: block;
     text-align: right;
+    color:blue;
 }
 
 .logo {
