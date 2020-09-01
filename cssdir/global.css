@@ -35,9 +35,19 @@ a:visited {color:blue;}
         color: Blue;
         width: 90%;
 }
-
-
-
+h1 {
+    font-size: 2em;
+}
+h2 {
+    font-size: 1.8em;
+}
+h3 {
+    font-size: 1.5em;
+}
+h4 {
+    font-size: 1.3em;
+    color: blue;
+}
 footer {
     text-align: center;
     font-size: .8em;

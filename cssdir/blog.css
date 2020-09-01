@@ -1,19 +1,28 @@
 .twitter {
     display:flex;
-    data-width: 80%;
-    border:coral solid 2px;
-    border-radius: 5%;
+    /* border:blue 5px; */
+    border-radius: 10%;
     flex-wrap: wrap;
-    padding:10px;
+    padding: 10px;
     justify-content: center;
 }
 
 .twitter-timeline {
     border: black solid 1px;
-    data-width: 100%;
 }
-.twitter-follow-button {
-    /* display:block;
-    justify-content: center;
-    height: 50px; */
+
+.blogpost {
+    display:block;
+    width: 80%; 
+    padding: 5px;
+    /* border:crimson solid 1px; */
+    margin: green solid 3px;
+
 }
+.blog-title, .blog-date {
+    text-align: center;
+}
+.blogpic {
+    float:right;
+}
+
