@@ -6,6 +6,15 @@
     padding: 10px;
     justify-content: center;
 }
+.fa-twitter, .fa-linkedin, .fa-envelope-square {
+    font-size: 3em;
+    margin:10px;
+}
+.socials {
+    display: flex;
+    width: 60%;
+    justify-content: center;
+}
 
 .twitter-timeline {
     border: black solid 1px;
