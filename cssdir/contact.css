@@ -5,7 +5,7 @@
     display:flex;
     width: 100%;
     /* align-items: flex-start; */
-    border: black solid 2px;
+    /* border: black solid 2px; */
     justify-content: space-evenly;
     text-align: center;
     align-items: center;
@@ -19,14 +19,14 @@ form {
     /* padding: 10%; */
     flex-wrap: wrap;
     flex-direction: row;
-    border: orange solid 2px;
+    /* border: orange solid 2px; */
     text-align: center;
     justify-content: center;
 }
 
 input {
     width: 60%;
-    border: red solid 1px;
+    /* border: red solid 1px; */
     /* background-color: orange; */
 }
 

@@ -23,7 +23,10 @@ body {
 
 a {
     text-decoration: none;
+    color: green;
 }
+a:visited {color:blue;}
+
 
 #headings{
         display: block;
@@ -32,7 +35,8 @@ a {
         width: 90%;
 }
 
-a:visited {color:blue;}
+
+
 footer {
     text-align: center;
     font-size: .8em;
