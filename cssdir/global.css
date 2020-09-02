@@ -52,5 +52,17 @@ footer {
     text-align: center;
     font-size: .8em;
 }
-
-
+@media only screen and (min-width: 1100px) {
+    .back-margin {
+        width:1000px;
+        margin: 10%;
+        /* border: black solid 2px; */
+        
+    }
+    body {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        flex-direction: column;
+    }
+}
