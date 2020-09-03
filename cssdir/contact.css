@@ -25,7 +25,7 @@
     /* padding: 10%; */
     flex-wrap: wrap;
     /* flex-direction: row; */
-    border: orange solid 2px;
+    /* border: orange solid 2px; */
     text-align: center;
     justify-content: center;
 }
@@ -57,9 +57,12 @@ textarea {
 }
 .social-icon {
     font-size: 3em;
-    color: pink;
+    color: #ffa8b6;
 }
 
+.social-icon:hover {
+    color: #a28089;
+}
 .button {
     width: 100px;
     

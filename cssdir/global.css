@@ -14,7 +14,7 @@ body {
     align-items: center;
     flex-direction: column;
     /* background: #9df9ef; */
-    background: pink;
+    background: #ffa8b6;
     font-family: Poppins;
     margin: 0;
 }
@@ -32,15 +32,15 @@ body {
 
 a {
     text-decoration: none;
-    color: blue;
+    color:#5959c9;
 }
-a:visited {color:blue;}
+a:visited {color:#5959c9;}
 
 
 #headings{
         display: block;
         text-align: center;
-        color: blue;
+        color: #5959c9;
         font-weight: bold;
         width: 90%;
 }
@@ -55,7 +55,7 @@ h3 {
 }
 h4 {
     font-size: 1.3em;
-    color: blue;
+    color: #5959c9;
 }
 footer {
     text-align: center;
@@ -64,7 +64,7 @@ footer {
 
 .other-languages{
     font-size: 4em;
-    color:blue;
+    color:#5959c9;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -72,8 +72,7 @@ footer {
         width:1000px;
         margin: 10%;
         }
-        /* padding: 5%; */
-        /* border: black solid 2px; */
+
 }
 @media only screen and (max-width: 600px) {
     body {
