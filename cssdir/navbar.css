@@ -8,6 +8,7 @@
     padding-right: 10%;
     align-items: center;
     justify-content: space-between;
+    border-radius: 5%;
 }
 
 .nav-end {
@@ -45,6 +46,9 @@ a.navlink:hover{
   left: 0;
   width: 100%; 
   justify-content: space-evenly;
+}
+.nav-bar {
+  width: max-content;
 }
 
 .nav-end a {
