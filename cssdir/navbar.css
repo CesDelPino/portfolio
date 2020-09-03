@@ -36,8 +36,37 @@ a.navlink:hover{
 }
 
 @media only screen and (max-width: 600px) {
+.nav-end {
+  display:flex;
+  flex-direction: row;
+  background-color:pink;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; 
+  justify-content: space-evenly;
+}
 
-.hamburger {
+.nav-end a {
+  /* float: left; */
+  display: block;
+  color: #f2f2f2;
+  text-align: left;
+  padding: 5px;
+  text-decoration: none;
+
+}
+a.navlink:hover{
+    border:none;
+    border-radius: 0%;
+    border-top: 2px solid blue;
+    border-bottom: 2px solid blue;
+    overflow: hidden;
+}
+.logo{
+    display: none;
+}
+/* .hamburger {
     display: block;
     text-align: right;
     color:blue;
@@ -71,7 +100,7 @@ a.navlink:hover{
 a.navlink:hover{
         border: none;
         overflow: hidden;
-}
+} */
 
 }
 
