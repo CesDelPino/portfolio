@@ -1,6 +1,11 @@
 /* need to fix the pdf file download link and lavel to display above and below each other. */
 
 /* flex box for the pdf download */
+.contact-container{
+    display:flex;
+    flex-direction: column;
+}
+
 #cv {
     display:flex;
     width: 100%;
@@ -13,17 +18,20 @@
 }
 
 
-form {
+.contact-form {
     display: flex;
-    width: 100%;
+    width: 80%;
+    flex-direction: column;
     /* padding: 10%; */
     flex-wrap: wrap;
-    flex-direction: row;
-    /* border: orange solid 2px; */
+    /* flex-direction: row; */
+    border: orange solid 2px;
     text-align: center;
     justify-content: center;
 }
-
+.hidden {
+    display: none;
+}
 input {
     width: 60%;
     /* border: red solid 1px; */
@@ -33,4 +41,39 @@ input {
 textarea {
     /* background-color: red; */
     width: 60%;
+}
+
+.socials {
+    display:block;
+    justify-content: space-evenly;
+}
+/* .socials {
+    display: flex;
+    width: 60%;
+    justify-content: center;
+} */
+.socials a {
+    padding:10px;
+}
+.social-icon {
+    font-size: 3em;
+    color:blue;
+}
+
+
+.button {
+    width: 100px;
+    
+    background-color: #ffa8b6;
+    border: none;
+    border-radius: 50%;
+    height: 4vh;
+    color:white;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 20px;
+}
+
+.button:hover {
+    background-color: #a28089;
 }
