@@ -1,12 +1,17 @@
 .good-code{
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
     text-align: center;
     width: 100%;
-    border: black solid 2px;
+    background-color: rgb(219, 237, 243);
+    border-radius: 10%;;
 }
 
-.ther-heading {
-        text-align: center;
-        width: 100%;
+
+@media only screen and (max-width: 600px) {
+    .good-code{
+        /* display:flex; */
+        flex-direction: column;
+    }
 }

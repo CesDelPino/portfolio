@@ -13,21 +13,21 @@
 .nav-end {
     display: block;
     font-weight: bold;
-    padding:10px;
+    padding: 10px;
 }
 
 .navlink {
     /* color:peru; */
     font-weight: bold;
-    background-color:skyblue;
+    /* background-color:skyblue; */
     list-style: none;
+    border: 4px;
     border-radius: 15%;
+    padding: 5px;
 }
 
 a.navlink:hover{
-        /* border-top: 5px solid yellow;
-        border-bottom: 5px solid yellow; */
-        color:red;
+        border: 2px solid blue;
         overflow: hidden;
 }
 
@@ -66,6 +66,11 @@ a.navlink:hover{
 
 .nav-bar:hover .nav-end {
   display: block;
+}
+
+a.navlink:hover{
+        border: none;
+        overflow: hidden;
 }
 
 }

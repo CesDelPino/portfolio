@@ -15,7 +15,7 @@
     align-items: center;
     width: 100%;
     justify-content: space-evenly;
-    border: green solid 1px;
+    /* border: green solid 1px; */
 }
 .code-about {
     display: block;
@@ -29,6 +29,14 @@ p {
     color: black;
     /* display: none; */
 }
+
+@media only screen and (max-width: 600px) {
+    .code-icon{
+        display:flex;
+        flex-direction: column;
+    }
+
+}
 /* #html5, #css3, #rubylang {
     display: none;
 } */
@@ -38,10 +46,10 @@ p {
     color: black;
 } */
 
-#icon5:hover + p {
+/* #icon5:hover + p {
   display: block;
 }
 
 #css3:hover + p {
   display: block;
-}
+} */
