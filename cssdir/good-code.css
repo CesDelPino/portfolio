@@ -16,6 +16,6 @@
 @media only screen and (max-width: 600px) {
     .good-code{
         flex-direction: column;
-        width: 80%;
+        width: 100%;
     }
 }
