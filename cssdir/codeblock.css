@@ -18,11 +18,17 @@
     justify-content: space-evenly;
     /* border: green solid 1px; */
 }
+
+.code-icon p {
+    padding: 8px;
+    text-align: left;
+}
 .code-about {
     display: block;
     text-align: center;
     width: 100%;
     height: 100px;
+    padding: 5px;
     /* border: orange solid 1px; */
 } 
 p {

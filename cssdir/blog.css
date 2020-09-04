@@ -1,33 +1,29 @@
 .twitter {
     display:flex;
-    /* border:blue 5px; */
     border-radius: 10%;
     flex-wrap: wrap;
     padding: 10px;
     justify-content: center;
-}
-/* .fa-twitter, .fa-linkedin, .fa-envelope-square {
-    font-size: 3em;
-    margin:10px;
-} */
-
-
-.twitter-timeline {
-    border: black solid 1px;
 }
 
 .blogpost {
     display:block;
     width: 80%; 
     padding: 5px;
-    /* border:crimson solid 1px; */
-    margin: green solid 3px;
+    text-align: justify;
 
 }
 .blog-title, .blog-date {
     text-align: center;
 }
 .blogpic {
-    float:right;
+    float: right;
+    padding: 8px;
 }
 
+ /* @media brings blog picture to 100% width and avoids text wrapping at intermediate screen sizes */
+@media only screen and (max-width: 750px) {
+    .blogpic {
+        width: 100%;
+    }
+}

@@ -11,9 +11,11 @@
     display: none;
     /* border: black solid 1px; */
     width: 40%;
+    /* height: 200px; */
+}
+.article-left {
     height: 200px;
 }
-
 .article-left:hover~.article-right{
     display:block;
     border-color: black solid 2px;
