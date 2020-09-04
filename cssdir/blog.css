@@ -1,16 +1,24 @@
-/* creating a flex box for the blog index */
-.index-container{
-    display: flex;
-    flex-direction: row;
+.contents {
+    display:flex;
     width: 80%;
-    justify-content: space-around;
-    align-items: top;
+    text-align: center;
+    justify-content: space-evenly;
+    /* background-color: #dbedf3; */
 }
-/* removing bullet point styling from list items */
-.index-container ul li {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.top-button {
+    display:block;
+    width: 130px;
+    padding: 5px;
+    text-align: center;
+    background-color: #dbedf3;
+    justify-content: space-evenly;
+}
+.top-button:hover {
+    background-color: #ffa8b6;
+}
+.contents a {
+    background-color: #dbedf3;
+    width: 40%;
 }
 .twitter {
     display:flex;
@@ -25,8 +33,8 @@
     width: 80%; 
     padding: 5px;
     text-align: justify;
-
 }
+
 .blog-title, .blog-date {
     text-align: center;
 }
@@ -34,7 +42,16 @@
     float: right;
     padding: 8px;
 }
+.blog-title {
+    display: block;
+    background-color: #dbedf3;
+    width: 100%;
+}
 
+.blog-date {
+    text-align: left;
+    font-style: italic;
+}
  /* @media brings blog picture to 100% width and avoids text wrapping at intermediate screen sizes */
 @media only screen and (max-width: 750px) {
     .blogpic {

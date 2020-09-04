@@ -8,14 +8,16 @@
 }
 
 #cv {
-    display:flex;
-    width: 100%;
+    display:block;
+    width: 60%;
     /* align-items: flex-start; */
     /* border: black solid 2px; */
     justify-content: space-evenly;
+    border-radius: 5%;
     text-align: center;
     align-items: center;
     padding-top: 2%;
+    background-color: #dbedf3;
 }
 /* creating a flexbox contrainer for a busniess card */
 .business-card {
