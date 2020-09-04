@@ -16,13 +16,13 @@
     align-items: center;
     width: 100%;
     justify-content: space-evenly;
-    /* border: green solid 1px; */
 }
 
 .code-icon p {
     padding: 8px;
-    text-align: left;
+    /* height: fit-content; */
 }
+
 .code-about {
     display: block;
     text-align: center;
