@@ -29,41 +29,47 @@
     <!-- section for the top headings -->
     <section id="headings">
         <h1>I'm glad you are here</h1>
-        <h3>Get in touch and lets build something together!</h3>
+        <h3>Here is how you can find me.</h3>
     </section>
-    <article id="cv">
-        <a href="pics/cv.pdf" download="cv">
-        <img src="pics/resume.png" alt="PDF"><h3>Download my cv </h3>
-        </a>
-    </article>
-    <section class="contact-container" alt="a container for links to socials">
-        <!-- links to socials -->
-    <article class="socials">
+    <article class="business-card">
+        <div id="QRcontainer">
+        <img src="pics/QRContact.png" alt="QR contact info>">
+        </div>
+        <div id="contact-info">
+        <p>Cesar Del Pino Lopez<br>
+        <a href="tel:+61400320070">+61 400320070<br>
+        <a href="mailto:dev@delpino.com">dev@delpino.com <a><br></P>
         <a href="https://twitter.com/CesDelPino"><i class="devicon-twitter-plain social-icon"></i></a>
         <a href="linkedin.com"><i class="devicon-linkedin-plain social-icon"></i></a>
-        <a href="https://github.com/Bando1ero"><i class="devicon-github-plain-wordmark social-icon"></i></a>        
+        <a href="https://github.com/Bando1ero"><i class="devicon-github-plain-wordmark social-icon"></i></a>  
+        </div>
     </article>
 
-    <form>
-        <h3>Leave me a message</h3>
-        <form class="contact-form">
-            <form action="https://formspree.io/xgenjbrl" method="POST">
-            <label for="name" class="hidden">First Name</label><br>
+    <!-- Contact form -->
+        
+    <form class="contact-form" action="https://formspree.io/xgenjbrl" method="POST">
+    <h3>Leave me a message</h3>
+            <label for="name" class="hidden">First Name</label>
             <input type="text" id="name" name="name" placeholder="Name">
             <label for="surname" class="hidden">Surname</label>
             <input type="text" id="fname" name="surname" placeholder="Surname">
-            <label for="email" class="hidden" required>e-mail</label><br>
-            <input type="text" id="e-mail" name="e-mail" placeholder="your@email.com.au"></input>
+            <label for="email" class="hidden" required>e-mail</label>
+            <input type="text" id="e-mail" name="e-mail" placeholder="your@email.com.au">
             <label for="message" class="hidden"></label>
             <textarea id="message" rows="4" cols="50" placeholder="Please leave a message"></textarea><br></br>
             <input type="submit" value="Send" class="button">
     </form></br>
 
+    <article id="cv">
+        <a href="pics/cv.pdf" download="cv">
+        <img src="pics/resume.png" alt="pdf resume"><h3>Download my cv </h3>
+        </a>
+    </article>
     <section class="email-me">
         or e-mail me directly.<br></br>
         <a href="mailto:dev@delpino.com"><i class="fas fa-envelope-square social-icon"></i></a>
     </section>
-    </section>
+    
     </div>
 </body>
 <footer>

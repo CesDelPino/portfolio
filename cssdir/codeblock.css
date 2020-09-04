@@ -8,7 +8,7 @@
     align-items: center;
     border-radius: 5%;
     padding: 5%;
-    background-color: rgb(219, 237, 243);
+    background-color: #dbedf3;
 }
 /*set up for the codeblock flex box*/
 .code-icon {
@@ -47,19 +47,4 @@ p {
         padding: 5%;
     }
 }
-/* #html5, #css3, #rubylang {
-    display: none;
-} */
 
-/* .great-code .code-icon div i:hover, .great-code + .code-about #html5 {
-    display: block;
-    color: black;
-} */
-
-/* #icon5:hover + p {
-  display: block;
-}
-
-#css3:hover + p {
-  display: block;
-} */

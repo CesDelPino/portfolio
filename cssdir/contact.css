@@ -1,9 +1,10 @@
-/* need to fix the pdf file download link and lavel to display above and below each other. */
+
 
 /* flex box for the pdf download */
 .contact-container{
     display:flex;
     flex-direction: column;
+    padding: 40px;
 }
 
 #cv {
@@ -16,6 +17,16 @@
     align-items: center;
     padding-top: 2%;
 }
+/* creating a flexbox contrainer for a busniess card */
+.business-card {
+    display:flex;
+    width: 380px;
+    padding: 15px;
+    background: #dbedf3;
+    border-radius: 5%;
+    justify-content: space-around;
+    align-items: center;
+}
 
 
 .contact-form {
@@ -24,34 +35,23 @@
     flex-direction: column;
     /* padding: 10%; */
     flex-wrap: wrap;
-    /* flex-direction: row; */
-    /* border: orange solid 2px; */
     text-align: center;
     justify-content: center;
+    border: 0;
+    align-items: center;
+
 }
 .hidden {
     display: none;
 }
 input {
     width: 60%;
-    /* border: red solid 1px; */
-    /* background-color: orange; */
 }
 
 textarea {
-    /* background-color: red; */
     width: 60%;
 }
 
-.socials {
-    display:block;
-    justify-content: space-evenly;
-}
-/* .socials {
-    display: flex;
-    width: 60%;
-    justify-content: center;
-} */
 .socials a {
     padding:10px;
 }
@@ -64,8 +64,7 @@ textarea {
     color: #a28089;
 }
 .button {
-    width: 100px;
-    
+    width: 100px;  
     background-color: #ffa8b6;
     border: none;
     border-radius: 50%;
@@ -78,4 +77,10 @@ textarea {
 
 .button:hover {
     background-color: #a28089;
+}
+
+@media only screen and (max-width: 400px) {
+        .business-card{
+            flex-direction: column;
+        }
 }
