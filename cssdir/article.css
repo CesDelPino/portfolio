@@ -1,33 +1,33 @@
+/* Setting up the flex box for the article ccontainer */
 .text-pic{
     display: flex;
-    /* border: black solid 2px; */
     width:100%;
     margin:auto;
     justify-content: space-between;
     padding: 10%;
 }
 
+/* Using the same basic code, we make a small change in article-right name to prevent the content being hidden */
 .article-right{
     display: none;
     width: 40%;
 }
+.article-right-no-hide {
+    padding-left: 20px;
+    padding-top: 0;
+    align-items: flex-start;
+}
+
+/* setting the height of the left div in article to prevent image warping */
 .article-left {
     height: 200px;
 }
+/* HOver effect seen in home/index page*/
 .article-left:hover~.article-right{
     display:block;
-    /* border-color: black solid 2px; */
+
 }
-
-/* found this code.... where the F is it from? */
-/* .contact-form {
-    display:flex;
-    width: 100%;
-    flex-wrap: wrap;
-    border:black solid 3px;
-} */
-/* space for animation of description appear on img hover */
-
+/* break points to change flexbox for best viewing on smaller screens */
 @media only screen and (max-width: 600px) {
     
     .text-pic{

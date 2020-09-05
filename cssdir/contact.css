@@ -6,12 +6,10 @@
     flex-direction: column;
     padding: 40px;
 }
-
+/* setting up container to house the resume dowload code*/
 #cv {
     display:block;
     width: 60%;
-    /* align-items: flex-start; */
-    /* border: black solid 2px; */
     justify-content: space-evenly;
     border-radius: 5%;
     text-align: center;
@@ -19,7 +17,9 @@
     padding-top: 2%;
     background-color: #dbedf3;
 }
-/* creating a flexbox contrainer for a busniess card */
+
+
+/* creating a flexbox contrainer for a busniess card item */
 .business-card {
     display:flex;
     width: 380px;
@@ -29,12 +29,20 @@
     justify-content: space-around;
     align-items: center;
 }
-
+/* styling icons inside business card*/
+.bcard-icon{
+    font-size: 2.2em;
+    color: #ffa8b6;
+}
+/* email icon from a diferent library needed special styling */
+.fa-envelope-square {
+    color: #ffa8b6;
+}
+/*form styling */
 .contact-form {
     display: flex;
     width: 80%;
     flex-direction: column;
-    /* padding: 10%; */
     flex-wrap: wrap;
     text-align: center;
     justify-content: center;
@@ -43,13 +51,14 @@
 
 }
 
+/* form attribute class for label was set to hidden to comply with accesibility standards but not display on screen*/
 .hidden {
     display: none;
 }
+/* formatting the form for better display*/
 input {
     width: 60%;
 }
-
 textarea {
     width: 60%;
 }
@@ -57,10 +66,10 @@ textarea {
 .socials a {
     padding:15px;
 }
-.social-icon {
+/* .social-icon {
     font-size: 3em;
     color: #ffa8b6;
-}
+} */
 
 .social-icon:hover {
     color: #a28089;

@@ -1,7 +1,6 @@
 /* baseline code for the coding block */
 .great-code {
     display: inline-block;
-    /* border: pink solid 2px; */
     width: 100%;
     margin: auto;
     flex-direction: column;
@@ -13,9 +12,8 @@
 /*set up for the codeblock flex box*/
 .code-icon {
     display: inline-flex;
-    align-items: center;
+    align-items: flex-start;
     width: 100%;
-    justify-content: space-evenly;
 }
 
 .code-icon p {
