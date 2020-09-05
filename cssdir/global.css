@@ -61,10 +61,6 @@ footer {
     font-size: .8em;
 }
 
-.other-languages{
-    font-size: 4em;
-    color:#5959c9;
-}
 
 @media only screen and (min-width: 1200px) {
     .back-margin {

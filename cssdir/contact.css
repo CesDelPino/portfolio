@@ -30,7 +30,6 @@
     align-items: center;
 }
 
-
 .contact-form {
     display: flex;
     width: 80%;
@@ -56,7 +55,7 @@ textarea {
 }
 
 .socials a {
-    padding:10px;
+    padding:15px;
 }
 .social-icon {
     font-size: 3em;

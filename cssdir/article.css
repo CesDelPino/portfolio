@@ -16,15 +16,16 @@
 }
 .article-left:hover~.article-right{
     display:block;
-    border-color: black solid 2px;
+    /* border-color: black solid 2px; */
 }
+
 /* found this code.... where the F is it from? */
-.contact-form {
+/* .contact-form {
     display:flex;
     width: 100%;
     flex-wrap: wrap;
     border:black solid 3px;
-}
+} */
 /* space for animation of description appear on img hover */
 
 @media only screen and (max-width: 600px) {
