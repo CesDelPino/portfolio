@@ -1,0 +1,30 @@
+h1 {
+  color: #8eb8b6;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h3 {
+  color: rgb(176, 118, 231);
+
+}
+
+li {
+
+    color:red ;
+}
+
+p {
+
+    color: yellow
+  
+}
+
+a {
+
+    text-decoration: none;
+    color: lightblue
+}
+
+img {
+  width: 30%;
+}

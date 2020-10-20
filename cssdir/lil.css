@@ -1,0 +1,26 @@
+h1 {
+  color: aqua;
+}
+
+h3 {
+  color: rgb(241, 226, 11);
+}
+
+ol {
+  color: blueviolet;
+}
+a {
+  color: deeppink;
+  text-decoration: none;
+}
+p {
+  color: greenyellow;
+}
+
+.new-p {
+  color: red;
+}
+
+img {
+  width: 30%;
+}
