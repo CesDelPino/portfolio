@@ -71,42 +71,6 @@ a.navlink:hover{
     display: none;
 }
 
-/* .hamburger {
-    display: block;
-    text-align: right;
-    color:blue;
-}
-
-.logo {
-    display:none;
-}
-.nav-bar {
-  position: relative;
-  display: flex;
-  height:fit-content;
-  justify-content: flex-start;
-}
-
-.nav-end {
-  display: none;
-  position: absolute;
-  padding: 5%;
-  min-width: 160px;
-}
-
-.navlink {
-    background-color: transparent;
-}
-
-.nav-bar:hover .nav-end {
-  display: block;
-}
-
-a.navlink:hover{
-        border: none;
-        overflow: hidden;
-} */
-
 }
 
 
