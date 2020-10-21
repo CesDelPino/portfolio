@@ -24,6 +24,7 @@
     border: 4px;
     border-radius: 15%;
     padding: 5px;
+    border: 2px solid transparent
 }
 
 a.navlink:hover{
