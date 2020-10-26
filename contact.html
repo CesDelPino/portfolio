@@ -51,7 +51,7 @@
 
     <!-- Contact form -->
         
-    <form class="contact-form" action="https://formspree.io/xgenjbrl" method="POST">
+    <form class="contact-form" action="https://formspree.io/xgenjbrl" method="POST" data-netlify-recaptcha="true">
     <h3>Leave me a message</h3>
             <label for="name" class="hidden">First Name</label>
             <input type="text" id="name" name="name" placeholder="Name">
@@ -61,6 +61,7 @@
             <input type="text" id="e-mail" name="e-mail" placeholder="your@email.com.au">
             <label for="message" class="hidden"></label>
             <textarea id="message" type="text" rows="4" cols="50" placeholder="Please leave a message"></textarea><br>
+            <div data-netlify-recaptcha="true"></div>
             <input type="submit" value="Send" class="button">
     </form></br>
     <!-- container for resume download -->
